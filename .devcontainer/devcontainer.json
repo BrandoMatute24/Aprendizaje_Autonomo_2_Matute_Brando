@@ -1,0 +1,15 @@
+{
+  "name": "herramientas del aprendizaje autonomo 2",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+
+  "postCreateCommand": "pip install pyDOE3 allpairspy pandas pytest",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ]
+    }
+  }
+}
