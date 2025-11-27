@@ -3,9 +3,7 @@
 import pytest
 from pairwise_ecommerce import generar_combinaciones_pairwise
 
-
 def simular_checkout(tipo_usuario, navegador, idioma, metodo_pago, tipo_envio):
-    # Simulación simple: todas las combinaciones se consideran exitosas
     return {
         "exito": True,
         "mensaje": "Compra simulada correctamente.",
@@ -16,7 +14,7 @@ def simular_checkout(tipo_usuario, navegador, idioma, metodo_pago, tipo_envio):
         "tipo_envio": tipo_envio,
     }
 
-# Preparamos las combinaciones para parametrizar el test
+# Se preparan las combinaciones para parametrizar el test
 parametros = [tuple(combo) for combo in generar_combinaciones_pairwise()]
 
 @pytest.mark.parametrize(
@@ -28,5 +26,4 @@ def test_checkout_pairwise(tipo_usuario, navegador, idioma, metodo_pago, tipo_en
         tipo_usuario, navegador, idioma, metodo_pago, tipo_envio
     )
 
-    # Aserción mínima: todas las simulaciones deben ser exitosas
     assert resultado["exito"] is True

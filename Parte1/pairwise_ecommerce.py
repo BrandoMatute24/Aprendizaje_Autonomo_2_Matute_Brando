@@ -33,7 +33,8 @@ def imprimir_matriz_pairwise():
         fila = str(i).ljust(4) + "".join(str(v).ljust(25) for v in combo)
         print(fila)
 
-def guardar_matriz_csv(nombre_archivo="matriz_pairwise_ecommerce.csv"):
+def guardar_matriz_csv(nombre_archivo="Parte1/matriz_pairwise_ecommerce.csv"):
+    
     nombres = list(FACTORES.keys())
     combinaciones = generar_combinaciones_pairwise()
 
