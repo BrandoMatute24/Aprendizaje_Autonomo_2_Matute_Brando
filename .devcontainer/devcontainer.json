@@ -2,7 +2,7 @@
   "name": "herramientas del aprendizaje autonomo 2",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
 
-  "postCreateCommand": "pip install allpairspy pytest",
+  "postCreateCommand": "pip install allpairspy pandas pytest",
 
   "customizations": {
     "vscode": {
