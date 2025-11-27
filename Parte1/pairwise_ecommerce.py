@@ -12,11 +12,9 @@ FACTORES = {
     "Tipo de envío": ["Estándar", "Express", "Internacional", "Recolección en tienda"],
 }
 
-
 def generar_combinaciones_pairwise():
     niveles = list(FACTORES.values())
     return list(AllPairs(niveles))
-
 
 def imprimir_matriz_pairwise():
     nombres = list(FACTORES.keys())
@@ -35,7 +33,6 @@ def imprimir_matriz_pairwise():
         fila = str(i).ljust(4) + "".join(str(v).ljust(25) for v in combo)
         print(fila)
 
-
 def guardar_matriz_csv(nombre_archivo="matriz_pairwise_ecommerce.csv"):
     nombres = list(FACTORES.keys())
     combinaciones = generar_combinaciones_pairwise()
@@ -45,9 +42,7 @@ def guardar_matriz_csv(nombre_archivo="matriz_pairwise_ecommerce.csv"):
         escritor.writerow(["ID"] + nombres)
         for i, combo in enumerate(combinaciones, start=1):
             escritor.writerow([i] + list(combo))
-
     print(f"\nArchivo '{nombre_archivo}' generado correctamente.")
-
 
 if __name__ == "__main__":
     imprimir_matriz_pairwise()
