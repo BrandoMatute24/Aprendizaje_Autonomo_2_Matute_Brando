@@ -9,7 +9,7 @@ Todas las herramientas necesarias están preinstaladas dentro de un **DevContain
 - **allpairspy** — Generación de casos de prueba usando combinación por pares (pairwise).
 - **pytest** — Framework para ejecutar pruebas automatizadas.
 - **pytest-cov** — Extensión para medir cobertura de código, incluyendo cobertura de decisión.
-- **pylint** — Análisis estático del código para detectar errores, malas prácticas y problemas de estilo.
+- **pylint** — Análisis estático del código para detectar anomalías.
 - **pandas** — Manipulación de datos de apoyo en la generación y análisis de tablas.
 
 ## Comandos utilizados en el proyecto
