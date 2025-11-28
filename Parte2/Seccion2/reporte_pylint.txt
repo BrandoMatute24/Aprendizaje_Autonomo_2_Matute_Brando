@@ -1,9 +1,0 @@
-************* Module busqueda_binaria_anomalias
-busqueda_binaria_anomalias.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-busqueda_binaria_anomalias.py:22:11: E0602: Undefined variable 'variable_sin_inicializar' (undefined-variable)
-busqueda_binaria_anomalias.py:25:8: R1705: Unnecessary "elif" after "return", remove the leading "el" from "elif" (no-else-return)
-busqueda_binaria_anomalias.py:17:4: W0612: Unused variable 'valor_innecesario' (unused-variable)
-
------------------------------------
-Your code has been rated at 4.29/10
-

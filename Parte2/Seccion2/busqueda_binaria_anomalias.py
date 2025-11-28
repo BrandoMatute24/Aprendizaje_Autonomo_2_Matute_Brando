@@ -19,7 +19,7 @@ def busqueda_binaria(lista, objetivo):
     while izquierda <= derecha:
         medio = (izquierda + derecha) // 2
 
-        if variable_sin_inicializar > 0:
+        if variable_sin_definir > 0:
             izquierda = medio + 1
 
         if lista[medio] == objetivo:
