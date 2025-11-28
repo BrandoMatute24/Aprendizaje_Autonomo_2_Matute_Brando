@@ -1,18 +1,16 @@
 # Por Brando Matute
 
-"""
-Realiza una búsqueda binaria en una lista ordenada.
-
-Parámetros:
-- lista: Lista de elementos ordenados.
-- objetivo: Elemento a buscar.
-
-Retorna:
-- Índice del objetivo si se encuentra en la lista; -1 si no está presente.
-"""
-
 def busqueda_binaria(lista, objetivo):
+    """
+    Realiza una búsqueda binaria en una lista ordenada.
 
+    Parámetros:
+    - lista: Lista de elementos ordenados.
+    - objetivo: Elemento a buscar.
+
+    Retorna:
+    - Índice del objetivo si se encuentra en la lista; -1 si no está presente.
+    """
     izquierda = 0
     derecha = len(lista) - 1
 
