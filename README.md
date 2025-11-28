@@ -14,14 +14,18 @@ Todas las herramientas necesarias están preinstaladas dentro de un **DevContain
 
 ## Comandos utilizados en el proyecto
 
-- Medir cobertura de código (incluye cobertura de decisión)
+Medir cobertura de código (incluye cobertura de decisión)
+
 **pytest --cov=busqueda_binaria --cov-branch**
 
 Generar reporte de cobertura en formato XML
+
 **pytest --cov=busqueda_binaria --cov-branch --cov-report=xml**
 
 Ejecutar análisis estático con Pylint
+
 **pylint busqueda_binaria_anomalias.py**
 
 Exportar el análisis estático a un archivo .txt
+
 **pylint busqueda_binaria_anomalias.py > reporte_pylint.txt**
