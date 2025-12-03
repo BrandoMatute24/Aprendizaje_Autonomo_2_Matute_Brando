@@ -41,14 +41,7 @@ Todas las herramientas necesarias están preinstaladas dentro de un **DevContain
 
 ## Comandos utilizados en la parte 2  - Seccion 2
 
-- Ejecutar análisis estático con Pylint
-
-**cd Parte2/Seccion2**
-
-
-**pylint busqueda_binaria_anomalias.py**
-
-- Exportar el análisis estático a un archivo .txt
+- Ejecutar análisis estático con Pylint y exportar el informe a un archivo .txt
 
 **cd Parte2/Seccion2**
 
