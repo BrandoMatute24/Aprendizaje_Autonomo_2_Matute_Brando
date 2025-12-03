@@ -22,7 +22,7 @@ Todas las herramientas necesarias están preinstaladas dentro de un **DevContain
 **python pairwise_ecommerce.py**
 
 
-## Comandos utilizados en la parte 2
+## Comandos utilizados en la parte 2  - Seccion 1
 
 - Medir cobertura de código (incluye cobertura de decisión)
 
@@ -37,6 +37,9 @@ Todas las herramientas necesarias están preinstaladas dentro de un **DevContain
 
 
 **pytest --cov=busqueda_binaria --cov-branch --cov-report=xml**
+
+
+## Comandos utilizados en la parte 2  - Seccion 2
 
 - Ejecutar análisis estático con Pylint
 
