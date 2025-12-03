@@ -17,19 +17,27 @@ Todas las herramientas necesarias están preinstaladas dentro de un **DevContain
 - Medir cobertura de código (incluye cobertura de decisión)
 
 **cd Parte2/Seccion1**
+
+
 **pytest --cov=busqueda_binaria --cov-branch**
 
 - Generar reporte de cobertura en formato XML
 
 **cd Parte2/Seccion1**
+
+
 **pytest --cov=busqueda_binaria --cov-branch --cov-report=xml**
 
 - Ejecutar análisis estático con Pylint
 
 **cd Parte2/Seccion2**
+
+
 **pylint busqueda_binaria_anomalias.py**
 
 - Exportar el análisis estático a un archivo .txt
 
 **cd Parte2/Seccion2**
+
+
 **pylint busqueda_binaria_anomalias.py > reporte_pylint.txt**
