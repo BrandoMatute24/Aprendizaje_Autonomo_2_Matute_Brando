@@ -22,9 +22,6 @@ Todas las herramientas necesarias están preinstaladas dentro de un **DevContain
 **python pairwise_ecommerce.py**
 
 
-**pytest --cov=busqueda_binaria --cov-branch**
-
-
 ## Comandos utilizados en la parte 2
 
 - Medir cobertura de código (incluye cobertura de decisión)
