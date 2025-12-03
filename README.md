@@ -12,7 +12,20 @@ Todas las herramientas necesarias están preinstaladas dentro de un **DevContain
 - **pylint** — Análisis estático del código para detectar anomalías.
 - **pandas** — Manipulación de datos de apoyo en la generación y análisis de tablas.
 
-## Comandos utilizados en el proyecto
+## Comandos utilizados en la parte 1
+
+- Ejecutar el script que genera los casos de prueba
+
+**cd Parte1**
+
+
+**python pairwise_ecommerce.py**
+
+
+**pytest --cov=busqueda_binaria --cov-branch**
+
+
+## Comandos utilizados en la parte 2
 
 - Medir cobertura de código (incluye cobertura de decisión)
 
